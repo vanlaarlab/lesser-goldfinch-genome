@@ -1,0 +1,34 @@
+TLR pipeline record: Wed Nov 11 01:22:26 PST 2026  host: node-46
+
+== tool versions
+miniprot  0.18-r281
+mafft     v7.525 (2024/Mar/13)
+samtools  samtools 1.24
+exonerate exonerate from exonerate version 2.4.0
+macse     2.07
+agat      module agat/1.2.0
+python    Python 3.13.11
+
+== input checksums
+602c356121d9846c196ea117502c3fb2  gaga_prot.faa
+0446af46647d8f98f4ac2a998a7d99db  gaga_genomic.gff
+daf8696e973f26fd8733cb6cfce36512  refs/chicken/cds_from_genomic.fna
+3d1680254e5e98a72496732a482aba8d  genomes/tagu/ncbi_dataset/data/GCF_048771995.1/protein.faa
+3292f45a72de05f1871d346d167b5b8d  genomes/tagu/ncbi_dataset/data/GCF_048771995.1/cds_from_genomic.fna
+
+== output checksums
+13872b84aa07fb230460c5d2ffa7a8b7  tlr5/results/tlr5_disruptions.tsv
+55173e8820b631f1a92cb26012341998  tlr5/results/tlr5_loci.tsv
+abc01fae04fae206a24880e5de72a6e5  tlr5/results/tlr5_stops.txt
+c359d5ebf442a8cc30e241e0e0861cc0  macse/out/tlr5_NT.fasta
+8260b07a7d7c90588816c3a218c4442c  macse/out/tlr5_AA.fasta
+53d85d867a529e8e9c17a9785184b2d1  macse/out/tlr5_disruptions.txt
+27539cee4f0439c3e38b7181d05253d7  tlr_table/tlr_copies_wide.tsv
+266933d310ef9cf7e32cb20ad193fd13  tlr_table/tlr_coverage_wide.tsv
+22e1c5f715f1f459e2cd72ef5e9c0e03  tlr_table/tlr_hits_long.tsv
+0d56b0f44102a5dc9e8c20f3bbdb3011  tlr_table/tlr_identity_similarity.tsv
+9137c5110278f5c147ed42440ab3bba5  tlr_table/tlr_identity_wide.tsv
+5fcf85cf00bf58bdb6c6d886a4eff47f  tlr_table/tlr_similarity_wide.tsv
+851ee55316c28d1af980dfd3fa60447a  figures/tlr5/tlr5_synteny.tsv
+e894a9155948f82ecd4965ca8bc93a21  tlr1_synteny/tlr1_synteny.tsv
+50afc0c9e912874dc893b08ab6103710  annotation/tlr_synteny/all_tlr_flanks.tsv
