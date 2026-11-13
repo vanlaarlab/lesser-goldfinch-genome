@@ -1,4 +1,4 @@
-(genomics_lr) triciavanlaar@system76-pc:~/Lego_assembly$ hifiasm -o legoContigs -t 16 trimmedlego.fastq
+hifiasm -o legoContigs -t 16 trimmedlego.fastq
 [M::ha_analyze_count] lowest: count[5] = 3562904
 [M::ha_analyze_count] highest: count[19] = 29214444
 [M::ha_hist_line]     2: ******************* 5571305
