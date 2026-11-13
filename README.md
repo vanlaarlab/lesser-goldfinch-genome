@@ -1,7 +1,6 @@
 # Lesser Goldfinch (*Spinus psaltria*) Reference Genome
 
-This repository contains the code for *Genome Assembly and Annotation of the Lesser Goldfinch (Spinus psaltria)*
-(Cortez, Vargas, Slade and Van Laar). Citation and DOI will be added on publication.
+This repository contains the code for the genome assembly and annotation of the lesser goldfinch (Spinus psaltria)
 
 ## The study
 
@@ -17,40 +16,8 @@ questions:
    chromosomes affect these estimates?**
 
 Main results: the primary assembly is 1.43 Gb in 938 contigs (N50 12.9 Mb, 97.8% complete BUSCOs). Repeats make up
-31.7% of it, mostly LTR retrotransposons; Z-linked sequence is less repetitive than the autosomes and W-linked
-sequence is 81% repetitive. The most recent burst of TE activity dates to about 2.0-6.1 million years ago. *TLR5*
-carries 11 disruptions shared by the lesser goldfinch, American goldfinch, pine siskin and house finch, so it was
-pseudogenized before these species diverged and cannot alone explain the lower *Salmonella* resistance of
-*Spinus*.
-
-## How we did it
-
-**Sequencing and assembly.** DNA from a blood sample was sequenced with PacBio HiFi. Reads were converted from
-BAM to FASTQ, summarized with SeqKit, and screened for leftover adapters with Cutadapt (2 of 2.94 million reads
-were removed). hifiasm assembled two pseudohaplotypes, used as the primary and alternate assemblies, and both were
-screened for contamination with NCBI FCS. We assessed contiguity with QUAST and completeness with BUSCO.
-
-**Gene annotation.** Helixer predicted genes ab initio on the primary assembly, without transcript evidence.
-AGAT summarized the gene models and extracted their proteins, whose completeness we assessed with BUSCO. The
-annotation is exploratory; the TLR analyses below do not depend on it.
-
-**Repeats.** RepeatModeler2 identified repeat families de novo, and MCHelper curated them into a library of 368
-classified families. RepeatMasker soft-masked the primary assembly with this library. To identify the sex
-chromosomes, we aligned the lesser goldfinch contigs to the house finch assembly, whose Z and W are assembled,
-and assigned contigs to Z or W when at least half of their aligned length fell on those chromosomes. Read depth
-confirmed the assignment: Z- and W-linked contigs have about half the autosomal depth, as expected in a female.
-We summarized repeat content for autosomal, Z and W contigs and for the assembly with and without them. Kimura
-divergence of each repeat copy from its family consensus gave the repeat landscape, and the most recent peak was
-dated with K = 2μt using pedigree-based mutation rates from three songbirds (collared flycatcher, zebra finch and
-great reed warbler), converted with the lesser goldfinch generation length (2.8 years).
-
-**Toll-like receptors.** We aligned chicken TLR proteins to the primary assemblies of the lesser goldfinch,
-American goldfinch, pine siskin and house finch, and to the zebra finch, with miniprot. This gave the TLR
-repertoire, copy numbers and identity to chicken for each species, and the genes flanking each locus. For *TLR5*,
-we identified frameshifts and premature stop codons in protein alignments (miniprot, MAFFT) and codon-aware
-alignments (MACSE), checked them with Exonerate, and mapped the disruptions onto the species tree by parsimony to
-infer when they arose. We also compared gene order around the TLR1-family cluster in birds with the human
-TLR10-TLR1-TLR6 cluster.
+31.7% of it, mostly LTR retrotransposons. *TLR5* carries disruptions shared by the lesser goldfinch, American goldfinch, pine siskin and 
+house finch, so it was pseudogenized before these species diverged and cannot alone explain the lower *Salmonella* resistance of *Spinus*.
 
 ## Scripts
 
@@ -114,7 +81,3 @@ MCHelper in step 13 was not recorded in the original log and follows the MCHelpe
 
 The supporting files (the output files behind each number in the paper, numbered 01-47) are archived with the data
 on Dryad, with a README listing what each file shows.
-
-## License
-
-To be added.
