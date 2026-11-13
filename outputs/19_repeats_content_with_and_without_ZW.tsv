@@ -1,0 +1,14 @@
+assembly	class	all_pct	noZW_pct	difference_pp	share_on_ZW_pct
+lego_pri	total	31.71	31.84	+0.12	5.2
+lego_pri	LINE	7.65	7.67	+0.02	5.2
+lego_pri	SINE	0.01	0.01	+0.00	3.2
+lego_pri	LTR	22.41	22.50	+0.09	5.2
+lego_pri	DNA	0.20	0.19	-0.00	7.4
+lego_pri	RC	0.52	0.55	+0.03	0.0
+lego_pri	Retroposon	0.00	0.00	+0.00	0.0
+lego_pri	ClassI_unknown	1.14	1.15	+0.00	5.1
+lego_pri	Unknown	0.00	0.00	+0.00	0.0
+lego_pri	Satellite	0.00	0.00	+0.00	0.0
+lego_pri	Simple_repeat	1.29	1.29	+0.00	5.4
+lego_pri	Low_complexity	0.22	0.22	-0.00	5.8
+lego_pri	Other	0.00	0.00	+0.00	0.0

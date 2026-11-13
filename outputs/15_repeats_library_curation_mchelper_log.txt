@@ -1,0 +1,44 @@
+(dfam-tetools /work)# python3 /opt/mchelper/MCHelper.py -l legoRepeats-families.fa -g legoContigs_hap1.fasta -o mchelp_out -t 16 -e 1000 --input_type fasta -a F -r A -b passeriformes_odb12.hmm
+
+#########################################################################
+#                                                                       #
+#                             MCHelper                                  #
+#   Instructions:  Execute the program, press q to close the graph and  #
+#     press a number 2-42 if you want to keep the TE, or 1 otherwise.   #
+#                                                                       #
+#########################################################################
+
+MESSAGE: Missing -s parameter, using by default: 60
+MESSAGE: Missing -x parameter, using by default: 16
+MESSAGE: Starting with Classified module...
+WARNING: There are some sequences with problems in your library and MCHelper cannot process them. Please check them in the file: /work/mchelp_out/sequences_with_problems.txt
+MESSAGE: Full-length file was already created, please verify or change the output directory
+MESSAGE: TE Feature table was already created, please verify or change the output directory
+TE+aid already run!
+
+Total stats :
+Sequences kept: 336
+-------------------------------------------
+TEs detected as complete: 106
+TEs detected as incomplete: 230
+TEs manually analyzed : 0
+TEs sent to Unclassified module : 417
+-------------------------------------------
+
+MESSAGE: Starting with Unclassified module...
+MESSAGE: BLASTn successfully run [2.695578098297119 seconds]
+MESSAGE: Order inferring from structural features done [1.6780791282653809 seconds]
+
+Total stats :
+Unclassified elements recovered: 282
+-------------------------------------------
+TEs recovered by homology: 99
+TEs recovered by inference of coding domains: 163
+TEs recovered by structural features: 20
+-------------------------------------------
+
+
+
+
+
+Checking for E. coli insertion elements

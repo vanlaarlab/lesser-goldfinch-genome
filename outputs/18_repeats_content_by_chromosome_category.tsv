@@ -1,0 +1,7 @@
+assembly	category	scaffolds	length_Mb	masked_Mb	masked_pct	LINE_pct	SINE_pct	LTR_pct	DNA_pct	RC_pct	Retroposon_pct	ClassI_unknown_pct	Unknown_pct	Satellite_pct	Simple_repeat_pct	Low_complexity_pct	Other_pct
+lego_pri	autosomal	775	1344.98	426.04	31.68	7.71	0.01	22.47	0.19	0.40	0.00	1.15	0.00	0.00	1.27	0.21	0.00
+lego_pri	Z	22	69.60	15.64	22.48	7.06	0.01	14.00	0.27	0.00	0.00	0.85	0.00	0.00	1.34	0.26	0.00
+lego_pri	W	5	9.72	7.86	80.84	8.49	0.00	70.67	0.26	0.00	0.00	2.61	0.00	0.00	0.73	0.04	0.00
+lego_pri	other	136	9.60	5.20	54.14	2.54	0.00	25.42	0.01	21.41	0.00	1.10	0.00	0.00	4.43	0.95	0.00
+lego_pri	noZW	911	1354.58	431.24	31.84	7.67	0.01	22.50	0.19	0.55	0.00	1.15	0.00	0.00	1.29	0.22	0.00
+lego_pri	all	938	1433.90	454.74	31.71	7.65	0.01	22.41	0.20	0.52	0.00	1.14	0.00	0.00	1.29	0.22	0.00
