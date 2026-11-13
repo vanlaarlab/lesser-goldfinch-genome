@@ -1,4 +1,4 @@
-(genomics_lr) triciavanlaar@system76-pc:~/Lego_assembly$ cutadapt \
+cutadapt \
   -a First_adapter=ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT \
   -a Second_adapter=ATCTCTCTCTTTTCCTCCTCCTCCGTTGTTGTTGTTGAGAGAGAT \
   --error-rate=0.1 \
