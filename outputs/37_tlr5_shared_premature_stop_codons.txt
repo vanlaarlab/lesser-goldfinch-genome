@@ -1,0 +1,23 @@
+stop codons per sequence (alignment columns; the last is the terminal stop)
+  amgo              9  [76, 352, 535, 615, 634, 824, 832, 843, 885]
+  hofi              9  [76, 352, 535, 615, 634, 733, 824, 832, 885]
+  lego              9  [76, 352, 535, 615, 634, 824, 832, 843, 885]
+  pisi              9  [76, 352, 535, 615, 634, 824, 832, 843, 885]
+  tagu              1  [885]
+  NP_001384988.1    0  []
+
+premature stops shared by all four finches: 7
+ aln_col  chicken_res  chicken_aa   tagu_aa
+      76           76           Y         Y
+     352          352           Q         Q
+     535          535           Y         Y
+     615          615           W         W
+     634          634           Y         Y
+     824          821           Q         Q
+     832          829           R         R
+
+stops not shared by all four (terminal stop included):
+  amgo: [843, 885]
+  hofi: [733, 885]
+  lego: [843, 885]
+  pisi: [843, 885]

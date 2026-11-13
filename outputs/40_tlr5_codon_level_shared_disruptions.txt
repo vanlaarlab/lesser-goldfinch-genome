@@ -1,0 +1,45 @@
+All events (a cluster containing a reference is likely an artifact)
+type	column	n_seqs	in_ref	sequences
+stop	226	4	-	amgo,hofi,lego,pisi
+frameshift	331	4	-	amgo,hofi,lego,pisi
+frameshift	670	1	-	lego
+frameshift	844-845	3	-	amgo,lego,pisi
+frameshift	868	1	-	hofi
+frameshift	1036	4	-	amgo,hofi,lego,pisi
+stop	1063	4	-	amgo,hofi,lego,pisi
+frameshift	1102	4	-	amgo,hofi,lego,pisi
+frameshift	1498	1	-	hofi
+stop	1612	4	-	amgo,hofi,lego,pisi
+frameshift	1660	3	-	amgo,lego,pisi
+frameshift	1825	1	-	hofi
+stop	1855	4	-	amgo,hofi,lego,pisi
+stop	1912	4	-	amgo,hofi,lego,pisi
+frameshift	2060	4	-	amgo,hofi,lego,pisi
+stop	2209	1	-	hofi
+stop	2479	4	-	amgo,hofi,lego,pisi
+stop	2506	4	-	amgo,hofi,lego,pisi
+stop	2539	3	-	amgo,lego,pisi
+frameshift	2611	1	-	pisi
+
+Shared by all 4 query sequences (amgo, hofi, lego, pisi) and absent from references: 11
+type	column
+stop	226
+frameshift	331
+frameshift	1036
+stop	1063
+frameshift	1102
+stop	1612
+stop	1855
+stop	1912
+frameshift	2060
+stop	2479
+stop	2506
+
+Per-sequence summary
+sequence	frameshifts	internal_stops	note
+amgo	6	8	disrupted
+chicken	0	0	reference
+hofi	7	8	disrupted
+lego	7	8	disrupted
+pisi	7	8	disrupted
+zebrafinch	0	0	reference
