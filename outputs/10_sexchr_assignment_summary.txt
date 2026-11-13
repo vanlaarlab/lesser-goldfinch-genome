@@ -1,0 +1,13 @@
+lego_pri vs house finch: 61600 alignments used, 37289 skipped (MAPQ < 5 or secondary)
+rules: removed if Z+W >= 50% of aligned bases; unaligned if < 5000 bp or < 5% of length aligned
+
+class      scaffolds        Mb  action
+autosomal        775   1344.98  kept
+Z                 22     69.60  REMOVED
+W                  5      9.72  REMOVED
+unplaced         104      6.36  kept
+mixed              0      0.00  kept
+unaligned         32      3.24  kept
+
+house finch W (CM050263.1, 9.5 Mb): 5.7 Mb covered by lego alignments (60%)
+house finch Z (CM050264.1, 89.3 Mb): 66.8 Mb covered by lego alignments (75%)

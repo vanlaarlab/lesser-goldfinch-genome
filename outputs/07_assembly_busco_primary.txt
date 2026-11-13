@@ -1,0 +1,30 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: passeriformes_odb12.2 (Creation date: 2026-05-13, number of genomes: 16, number of BUSCOs: 9140)
+# Summarized benchmarking in BUSCO notation for file /hb/groups/cornejo_lab/finches/genomes/lego/lego_pri.fna
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:97.8%[S:97.5%,D:0.2%],F:0.1%,M:2.1%,n:9140,E:6.4%	   
+	8935	Complete BUSCOs (C)	(of which 569 contain internal stop codons)		   
+	8914	Complete and single-copy BUSCOs (S)	   
+	21	Complete and duplicated BUSCOs (D)	   
+	10	Fragmented BUSCOs (F)			   
+	195	Missing BUSCOs (M)			   
+	9140	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	938	Number of scaffolds
+	938	Number of contigs
+	1433899291	Total length
+	0.000%	Percent gaps
+	12 Mbp	Scaffold N50
+	12 Mbp	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.18-r281
+	miniprot_align: 0.18-r281

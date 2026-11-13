@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    lego_pri    lego_alt  
+# contigs (>= 0 bp)         938         522       
+# contigs (>= 1000 bp)      938         522       
+# contigs (>= 5000 bp)      938         522       
+# contigs (>= 10000 bp)     938         522       
+# contigs (>= 25000 bp)     918         519       
+# contigs (>= 50000 bp)     756         502       
+Total length (>= 0 bp)      1433899291  1386149889
+Total length (>= 1000 bp)   1433899291  1386149889
+Total length (>= 5000 bp)   1433899291  1386149889
+Total length (>= 10000 bp)  1433899291  1386149889
+Total length (>= 25000 bp)  1433476702  1386091876
+Total length (>= 50000 bp)  1427251444  1385369751
+# contigs                   938         522       
+Largest contig              58974198    73886840  
+Total length                1433899291  1386149889
+GC (%)                      44.00       44.11     
+N50                         12917384    12622626  
+N90                         1023449     1259101   
+auN                         16846126.9  17405480.9
+L50                         30          30        
+L90                         208         183       
+# N's per 100 kbp           0.00        0.00      
