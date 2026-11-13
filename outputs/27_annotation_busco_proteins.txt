@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: passeriformes_odb12.2 (Creation date: 2026-05-13, number of genomes: 16, number of BUSCOs: 9140)
+# Summarized benchmarking in BUSCO notation for file /hb/groups/cornejo_lab/finches/eggnog/proteins/lego_pri.faa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:94.1%[S:93.8%,D:0.2%],F:1.6%,M:4.3%,n:9140	   
+	8598	Complete BUSCOs (C)			   
+	8576	Complete and single-copy BUSCOs (S)	   
+	22	Complete and duplicated BUSCOs (D)	   
+	147	Fragmented BUSCOs (F)			   
+	395	Missing BUSCOs (M)			   
+	9140	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4
